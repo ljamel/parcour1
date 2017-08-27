@@ -1,0 +1,784 @@
+﻿/* MOBILE FIRST */
+
+
+/*header*/
+
+#logo1 {
+	margin-top: 10px;
+}
+
+#entete {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 1px;
+	position: absolute;
+	position: fixed;
+	top: 0;
+	z-index: 6;
+	background-color: rgba(255, 255, 255, 0.8);
+}
+
+.menu1 li a:hover {
+	border-top: 3px #0099ff solid;
+	color: #000000;
+	margin-top: 27px;
+}
+
+ul li {
+	list-style-type: none;
+	margin: 9px;
+}
+
+li a {
+	text-decoration: none;
+	color: #666;
+	text-align: center;
+	padding: 25px 3px;
+	margin-top: 10px;
+}
+
+.menu1 ul {
+	display: flex;
+	justify-content: space-around;
+	margin-left: -30px;
+}
+
+.menu1 {
+	display: flex;
+	justify-content: center;
+	margin-top: -9px;
+	margin-left: -7px;
+}
+
+#home {
+	margin-top: 150px;
+}
+
+#home1 {
+	position: absolute;
+   	top: 0;
+}
+
+
+.slide-image {
+	background-image: url("https://progfacil.com/parcour1/images/slider/bg1.jpg");
+	background-size: cover;
+	height: 174px;
+	animation: fade 30s infinite;
+	-webkit-animation: fade 30s infinite;
+}
+
+.slide-image2 {
+	background-image: url("https://progfacil.com/parcour1/images/slider/bg2.jpg");
+	background-size: cover;
+	height: 174px;
+	animation: fade2 30s infinite;
+	-webkit-animation: fade2 30s infinite;
+}
+
+@keyframes fade {
+	0% {
+		opacity: 0
+	}
+	33.333% {
+		opacity: 1
+	}
+	66.666% {
+		opacity: 0
+	}
+	100% {
+		opacity: 1
+	}
+}
+
+@keyframes fade2 {
+	0% {
+		opacity: 0
+	}
+	33.333% {
+		opacity: 1
+	}
+	66.666% {
+		opacity: 0
+	}
+	100% {
+		opacity: 1
+	}
+}
+
+.texte1 {
+	font-size: 12px;
+	margin-left: 6%;
+	margin-top: -13px;
+	color: #FFFFFF;
+}
+
+.espacement3 {
+	font-size: 19px;
+}
+
+.espacement4 {
+	font-size: 18px;
+}
+
+.espacement2 {
+	font-size: 19px;
+	color: #5CADD3;
+}
+
+.templatemo_dl_green {
+	padding: 5px 3px;
+	background: #5CADD3;
+	color: #FFFFFF;
+	font-size: 16px;
+	border-bottom: 2px solid #0f5ec9;
+	border-radius: 3px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+}
+
+
+/* Full Width Progress Bar */
+
+.expand {
+	width: 100%;
+	height: 4px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	float: top;
+	background: #5CADD3;
+	-moz-animation: fullexpand 10s ease-out;
+	-webkit-animation: fullexpand 10s ease-out;
+	z-index: 3;
+}
+
+@-moz-keyframes fullexpand {
+	0% {
+		width: 0px;
+	}
+	100% {
+		width: 100%;
+	}
+}
+
+@keyframes fullexpand {
+	0% {
+		width: 0px;
+	}
+	100% {
+		width: 100%;
+	}
+}
+
+.w3-btn-floating,
+.w3-btn-floating-large {
+	text-align: center;
+	color: #fff;
+	background-color: rgba(0, 0, 0, 0.4);
+	position: relative;
+	padding: 2;
+	border-radius: 0 40px 40px 0;
+	cursor: pointer;
+	font-size: 21px;
+}
+
+.w3-btn-floating,
+.w3-btn-floating2 {
+	width: 20px;
+	height: 50px;
+	line-height: 50px;
+}
+
+.w3-btn-floating2,
+.w3-btn-floating-large {
+	text-align: center;
+	color: #fff;
+	background-color: rgba(0, 0, 0, 0.4);
+	position: relative;
+	padding: 2;
+	border-radius: 40px 0 0 40px;
+	cursor: pointer;
+	font-size: 21px;
+}
+
+
+/*position des boutons du slideshow*/
+
+.bouton12 {
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+	bottom: 120px;
+}
+
+.rectangledegrader {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	height: 30px;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	background-image: linear-gradient(#FFFFFF, #F0F0F0);
+}
+
+
+/*2èmes pages*/
+
+body {
+	background-image: linear-gradient(90deg, white, #F5F5F5);
+	width: 100%;
+}
+
+.fa {
+	color: #5CADD3;
+}
+
+.fa-circle {
+	background-color: white;
+	color: #5CADD3;
+	border-radius: 50%;
+	padding: 5px;
+	margin-top: -2px;
+}
+
+.a {
+	margin-left: 41px;
+	margin-top: -4px;
+	float: left;
+	position: relative;
+}
+
+.cercle1 {
+	display: inline-flex;
+	height: 73px;
+	width: 73px;
+	border-radius: 50%;
+	border: 1px solid #C0C0C0;
+	margin-top: -47px;
+	margin-left: -20px;
+}
+
+.trait1 {
+	display: inline-flex;
+	width: 140px;
+	border-radius: 50%;
+	border: 1px solid #F0F0F0;
+	position: absolute;
+	z-index: 0;
+	margin-left: -60px;
+	margin-top: 10px;
+}
+
+.ce {
+	z-index: 2;
+	position: absolute;
+}
+
+.b {
+	margin-left: -3px;
+}
+
+.fa-stack {
+	margin-top: 16px;
+}
+
+#dernieres-nouvelles {
+	margin-top: 40px;
+}
+
+.center {
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	margin: 20px;
+}
+
+#imagef img {
+	width: 270px;
+}
+
+.box {
+	display: flex;
+	flex-direction: row;
+	margin-left: 20px;
+	margin-top: 25px;
+}
+
+#main-feature {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.decal {
+	display: inline-block;
+	margin-left: 40px;
+	margin-top: -30px;
+}
+
+
+/*3èmes pages*/
+
+#portfolio {
+	background-color: #F5F5F5;
+}
+
+.ve {
+	color: white;
+	background-color: #5CADD3;
+	border-radius: 50%;
+	margin-top: -3px;
+	border-color: #5CADD3;
+	padding: 3px 3px;
+}
+
+.va {
+	color: white;
+	background-color: #5CADD3;
+	border-radius: 50%;
+	border-color: #5CADD3;
+	margin-left: -2px;
+}
+
+.fa-circle {
+	color: #5CADD3;
+	border-radius: 50%;
+	padding: 5px 5px;
+}
+
+.moncercle {
+	margin-left: 50%;
+	margin-top: 15px;
+}
+
+#menu2 a:hover {
+	background-color: #0099ff;
+	border-bottom: 3px solid blue;
+	color: white;
+	padding: 14px 12px;
+	margin: -10px;
+	/*empeche le texte de bouger au hover*/
+}
+
+.image span {
+	visibility: hidden;
+}
+
+.image span {
+	position: relative;
+	top: -66px;
+}
+
+.image img {
+	display: flex;
+	justify-content: center;
+	margin: 20px;
+	width: 260px;
+}
+
+.image span {
+	visibility: visible;
+	padding: 26px 64px;
+	margin: 20px;
+	background: #fff;
+	background: rgba(0, 0, 0, 0.3);
+	color: #FFFFFF;
+}
+
+ul#menu2 {
+	padding: 7px 16px;
+	text-decoration: none;
+	display: flex;
+	justify-content: between;
+	justify-content: center;
+}
+
+#menu2 a {
+	background-color: #ddd;
+	border-bottom: 4px solid #ddd;
+	padding: 14px 12px;
+	margin: -10px;
+	/*empeche le texte de bouger au hover*/
+	text-align: center;
+}
+
+ul#menu2 a {
+	border-radius: 3px;
+}
+
+ul#menu2 li {
+	margin-left: 9px;
+}
+
+.dropdown {
+	position: relative;
+}
+
+.dropdown-content {
+	visibility: hidden;
+	display: none;
+	position: absolute;
+	z-index: 2;
+	width: 15px;
+	height: 7px;
+}
+
+.dropdown-content2 {
+	visibility: visible;
+	margin-top: -5px;
+}
+
+.dropdown-content2 {
+	visibility: visible;
+	margin-bottom: -35px;
+	/*empeche l'image de bouger*/
+}
+
+.dropdown:hover .dropdown-content {
+	color: blue;
+	visibility: visible;
+	display: block;
+	margin-top: 10px;
+	margin-left: 20px;
+}
+
+.dropdown2 {
+	position: relative;
+}
+
+.dropdown-content2 {
+	display: none;
+	position: relative;
+	top: -140px;
+	left: 210px;
+	width: 35px;
+	height: 35px;
+}
+
+.dropdown2,
+.dropdown-content2 {
+	visibility: visible;
+	margin-bottom: -35px;
+	/*empeche l'image de bouger*/
+}
+
+.wrap {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+
+/*4èmes pages*/
+
+html,
+body,
+h1,
+form,
+fieldset,
+legend,
+ol,
+li {
+	margin: 0;
+	padding: 0;
+}
+
+h2 {
+	margin-bottom: -10px;
+}
+
+b {
+	margin-bottom: -15px;
+}
+
+ol {
+	margin-top: -13px;
+}
+
+form#paiement {
+	background-color: rgba(249, 249, 249, 0.8);
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	padding: 19px;
+	width: 260px;
+}
+
+form#paiement fieldset {
+	border: none;
+	margin-bottom: 10px;
+}
+
+form#paiement fieldset:last-of-type {
+	margin-bottom: 0;
+}
+
+form#paiement legend {
+	color: #384313;
+	font-size: 16px;
+	font-weight: bold;
+	padding-bottom: 10px;
+	text-shadow: 0 1px 1px #c0d576;
+}
+
+form#paiement fieldset fieldset legend {
+	color: #111111;
+	font-size: 13px;
+	font-weight: normal;
+	padding-bottom: 0;
+}
+
+li {
+	border: 1px;
+}
+
+form#paiement ol li {
+	border-color: rgba(0, 0, 0, 0.3);
+	border-style: solid;
+	border-width: 1px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	list-style: none;
+	margin-bottom: 7px;
+}
+
+form#paiement ol ol li {
+	background: none;
+	border: none;
+	float: left;
+}
+
+form#paiement input:not([type=radio]),
+form#paiement textarea {
+	background: #ffffff;
+	border: none;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	border-radius: 3px;
+	font: italic 13px Georgia, "Times New Roman", Times, serif;
+	outline: none;
+	padding: 5px;
+	width: 246px;
+}
+
+input {
+	height: 10px;
+}
+
+textarea {
+	height: 55px;
+}
+
+form#paiement input:not([type=submit]):focus,
+form#paiement textarea:focus {
+	background: #eaeaea;
+}
+
+form#paiement input[type=radio] {
+	float: left;
+	margin-right: 5px;
+}
+
+form#paiement button {
+	background-color: #5CADD3;
+	border: none;
+	color: #ffffff;
+	display: block;
+	font: 18px Georgia, "Times New Roman", Times, serif;
+	letter-spacing: 1px;
+	margin: auto;
+	padding: 7px 25px;
+	text-shadow: 0 1px 1px #000000;
+	text-transform: uppercase;
+	border-bottom: 2px solid blue;
+	border-radius: 4px;
+	float: left;
+}
+
+form#paiement button:hover {
+	background-color: #5CADC0;
+	cursor: pointer;
+}
+
+p.espacement_faible {
+	margin: -15px 0;
+}
+
+#about img {
+	width: 100%;
+	margin-top: -10%;
+	z-index: 0;
+}
+
+.plans {
+	display: flex;
+	justify-content: flex-end;
+	z-index: 7;
+}
+
+#form2 {
+	position: relative;
+	z-index: 5;
+}
+
+
+/* AUTRES FORMATS */
+
+@media (min-width: 668px) {
+	#entete {
+		position: relative;
+		display: flex;
+		justify-content: space-around;
+		margin-bottom: -120px;
+		margin-top: 9px;
+	}
+	.slide-image {
+		background-image: url("https://progfacil.com/parcour1/images/slider/bg1.jpg");
+		background-size: cover;
+		height: 403px;
+	}
+	.slide-image2 {
+		background-image: url("https://progfacil.com/parcour1/images/slider/bg2.jpg");
+		background-size: cover;
+		height: 403px;
+	}
+	.texte1 {
+		font-size: 20px;
+		margin-left: 18%;
+		margin-top: 120px;
+		color: #FFFFFF;
+	}
+	.espacement3 {
+		font-size: 30px;
+	}
+	.espacement2 {
+		font-size: 30px;
+		color: #5CADD3;
+	}
+	.templatemo_dl_green {
+		padding: 5px 3px;
+		background: #5CADD3;
+		color: #FFFFFF;
+		font-size: 16px;
+		border-bottom: 2px solid #0f5ec9;
+		border-radius: 3px;
+		font-weight: bold;
+		font-family: Arial, Helvetica, sans-serif;
+		text-align: center;
+	}
+	/* Full Width Progress Bar */
+	.expand {
+		width: 100%;
+		height: 4px;
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		float: top;
+		background: #5CADD3;
+		-moz-animation: fullexpand 10s ease-out;
+		-webkit-animation: fullexpand 10s ease-out;
+		z-index: 3;
+	}
+	@-moz-keyframes fullexpand {
+		0% {
+			width: 0px;
+		}
+		100% {
+			width: 100%;
+		}
+	}
+	@keyframes fullexpand {
+		0% {
+			width: 0px;
+		}
+		100% {
+			width: 100%;
+		}
+	}
+	.w3-btn-floating,
+	.w3-btn-floating-large {
+		text-align: center;
+		color: #fff;
+		background-color: rgba(0, 0, 0, 0.4);
+		position: relative;
+		padding: 2;
+		border-radius: 0 40px 40px 0;
+		cursor: pointer;
+		font-size: 21px;
+	}
+	.w3-btn-floating,
+	.w3-btn-floating2 {
+		width: 23px;
+		height: 50px;
+		line-height: 50px;
+	}
+	.w3-btn-floating2,
+	.w3-btn-floating-large {
+		text-align: center;
+		color: #fff;
+		background-color: rgba(0, 0, 0, 0.4);
+		position: relative;
+		padding: 2;
+		border-radius: 40px 0 0 40px;
+		cursor: pointer;
+		font-size: 21px;
+	}
+	/*position des boutons du slideshow*/
+	.bouton12 {
+		display: flex;
+		justify-content: space-between;
+		position: relative;
+		bottom: 220px;
+	}
+	.menu1 {
+		display: flex;
+		justify-content: center;
+		margin-top: -6px;
+	}
+	#dernieres-nouvelles {
+		margin-top: 24px;
+	}
+	#main-feature {
+		display: flex;
+		justify-content: space-around;
+	}
+	#form2 {
+		position: relative;
+		top: 300px;
+		right: 200px;
+		z-index: 5;
+	}
+	.plans {
+		z-index: 7;
+	}
+	.image span {
+		visibility: hidden;
+	}
+	.dropdown-content2 {
+		visibility: hidden;
+	}
+	.image img:hover+span {
+		visibility: visible;
+		padding: 28px 68px;
+		margin: 20px;
+		background: #fff;
+		background: rgba(0, 0, 0, 0.3);
+		color: #FFFFFF;
+	}
+	.dropdown2:hover .dropdown-content2 {
+		visibility: visible;
+		margin-top: 12px;
+		/*fait bouger l'icone*/
+	}
+	.image span {
+		padding: 27px 63px;
+		background: #fff;
+		color: #FFFFFF;
+		font-size: 0.93em;
+	}
+}
